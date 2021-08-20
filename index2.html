@@ -22,8 +22,6 @@
     }
     a {
         text-decoration: none;
-        color:white;
-        font-weight:bolder;
     }
     p {
         color:red;
@@ -31,15 +29,16 @@
     }
     </style>
     <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <h1><span>Trip to Paris</a></span></h1>
-    <table style="margin-left: 100px; margin-top: 50px;">
-        <tr>
-            <th class="plus_sym" style="margin-left: 400px;"><a href="./index.html">&larr;</a></th>
-            <td style="font-size: x-large;padding-bottom: 30px;font-weight: lighter;color:grey">Back</td>
-        </tr>
-    </table>
+    <div class="main">
+    <a href="./index.html"><i class="fa fa-arrow-circle-left" style="font-size:48px;color:red;margin-left:500px;margin-bottom: 15px;margin-top:15px;"></i></a>
+    <p class="p_style">Back</p>
+    </div>
+    <br>
     <div class="parent">
         <div class="child" style="width:320px; height:260px;">
             <p>Trip to Paris</p>
@@ -47,8 +46,7 @@
             <p><del><b>Completed Task</b></del></p>
             <input type="checkbox" name="div1_checkbox">Pending Task
             <br>
-            <p class="plus_sym" style="margin-top:100px;margin-left: 260px;"><a href="./index4.html">+</a>
-            </p>
+            <a href="index4.html"><i class="fas fa-plus-circle" style="font-size:35px;color:red;margin-left: 260px;margin-top: 80px;"></i></a>
         </div>
       </div>
 </body>

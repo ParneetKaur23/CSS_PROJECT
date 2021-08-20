@@ -14,18 +14,6 @@
     padding-bottom: 50px;
     text-align: center;
 }
-.plus_sym {
-    border-radius: 8px;
-    background-color: red;
-    width:20px;
-    height:22px;
-    color:white;
-    margin-left: 350px;
-    padding:2px 2px 0px 2px;
-    border-radius: 160%;
-    display: inline-block;
-    text-align: center;
-}
 .form_style {
     color:red;
     border: 1px solid red;
@@ -46,4 +34,13 @@
     font-size: large;
     border: 1px solid red;
     padding-bottom: 5px;
+}
+.p_style {
+    color:grey;
+    font-size: xx-large;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.main {
+   display: flex;
 }
