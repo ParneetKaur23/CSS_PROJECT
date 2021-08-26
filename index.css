@@ -10,20 +10,23 @@
     margin-right: 55px;
     border: 1px solid red;
     border-radius: 10px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     text-align: center;
 }
 .form_style {
     color:red;
     border: 1px solid red;
     display: inline-block;
-    width:400px;
-    height: 200px;
+    width:380px;
+    height: 180px;
     text-align:center;
-    margin-top: 320px;
-    margin-left: 320px;
-}
+    margin-top: 250px;
+    margin-left: 420px;
+    padding-top:30px;
+    padding-bottom: 30px;
+    position: relative;
+   }
 
 .button_style {
     background-color: red;
@@ -37,10 +40,20 @@
 }
 .p_style {
     color:grey;
-    font-size: xx-large;
-    margin-top: 20px;
+    font-size: x-large;
+    font-weight: 400;
+    margin-top: 17px;
     margin-left: 10px;
 }
 .main {
    display: flex;
+}
+
+.image {
+    background-image: url("./index.png");
+    backdrop-filter: blur(5px);
+    background-repeat: no-repeat;
+    margin-left:200px;
+    margin-top: 110px;
+   
 }
