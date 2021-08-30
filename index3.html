@@ -6,14 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        body {
-            background-image: url(./index.png);
-            backdrop-filter: blur(10px);
-            background-repeat: no-repeat;
-            background-position: center;
-            padding-top: 250px;
-            margin-top:20px;
-            }
+        .bg-image {
+  /* The image used */
+  background-image: url("./index.png");
+  
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  
+  /* Full height */
+  height: 100%; 
+  width:100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  position:absolute;
+}
+       
         p{
             font-size: x-large;
         }
@@ -21,6 +30,7 @@
     <link rel="stylesheet" href="./index.css">
 </head>
 <body>
+    <div class="bg-image"></div>
     <div class="form_style">
         <p>Add New List</p>
         <input class="input_style" type="text" name="input_value" id="input_value" value="">

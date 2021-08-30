@@ -6,20 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        body {
-            background-image: url(./index1.png);
-            backdrop-filter: blur(7px);
-            background-repeat: no-repeat;
-            background-position: center;
-            padding-top:200px;
-           }
-         p{
+        p{
             font-size: x-large;
         }
+        .bg2-image {
+    background-image: url("./index1.png");
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    height: 100%; 
+    width:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    position:absolute;
+  }
     </style>
     <link rel="stylesheet" href="./index.css">
 </head>
 <body>
+    <div class="bg2-image"></div>
     <div class="form_index4_style">
         <p>Add New List</p>
         <input class="index4_input_style" type="text" name="input_value" id="input_value" value="">

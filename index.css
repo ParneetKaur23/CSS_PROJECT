@@ -1,8 +1,34 @@
 .parent {
     display: flex;
     margin-top: 0px;
-    margin-left: 420px;
+    margin-left: 400px;
 }
+.parent_index2 {
+    display: flex;
+    margin-top: 0px;
+    margin-left: 550px;
+}
+
+.bg-image {
+    background-image: url("./index.png");
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    height: 100%; 
+    width:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    position:absolute;
+  }
+  .bg2-image {
+    background-image: url("./index1.png");
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    height: 100%; 
+    width:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    position:absolute;
+  }
 .child {
     width: 150px;
     height: 200px;
@@ -73,7 +99,7 @@
 }
 .h1_index_style {
     font-size:38px;
-    margin-left: 420px;
+    margin-left: 400px;
     display: inline-block;
     margin-top :160px;  
 }
@@ -94,14 +120,18 @@
     color:#F00000;
     border: 1px solid #F00000;
     display: inline-block;
-    width:450px;
+    width:350px;
     height: 150px;
     text-align:center;
-    margin-top: 100px;
-    margin-left: 400px;
+    margin-top: 200px;
+    margin-left: 480px;
     padding-bottom: 30px;
     background-color: white;
+    z-index: 1;
+    position: relative;
+    border-radius: 7px;
    }
+   
    .form_index4_style {
     color:#F00000;
     border: 1px solid #F00000;
@@ -109,10 +139,13 @@
     width:350px;
     height: 150px;
     text-align:center;
-    margin-top: 100px;
+    margin-top: 300px;
     margin-left: 500px;
     padding-bottom: 30px;
     background-color: white;
+    z-index: 1;
+    position: relative;
+    border-radius: 7px;
    }
 
    .index4_input_style {
@@ -147,7 +180,7 @@
 .i_index2_top_style {
     font-size:34px;
     color:#F00000;
-    margin-left:500px;
+    margin-left:640px;
     margin-bottom: 5px;
     margin-top:4px;
     
